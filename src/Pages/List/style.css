@@ -1,0 +1,36 @@
+/*
+* no p e small as fontes são relativas ao tamanho da fonte escolhida no html.
+* ou seja, 1.6rem de 10px e 1.2rem de 10px.
+*/
+p {
+  font-size: 1.6rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+small{
+  font-size: 1.2rem;
+}
+
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card-list {
+  margin-top: 3rem;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+/* centralizando o poster */
+.card--image {
+  margin: 0 auto;
+  display: block;
+}
